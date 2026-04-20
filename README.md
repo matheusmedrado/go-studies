@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MariaLetta/mega-doodles-pack/master/gopher-smiles-mac-500px.png" alt="Happy Gopher" width="150"/>
+  <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png" alt="Happy Gopher Learning" width="180"/>
   
   # 🚀 My Go Journey
 
