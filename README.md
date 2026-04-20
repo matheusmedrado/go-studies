@@ -6,47 +6,54 @@
   > Documenting my path, exercises, and projects while mastering Go (Golang) through Jon Calhoun's courses.
 
   ![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?style=for-the-badge&logo=go)
-  ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge)
-  ![Made with Love](https://img.shields.io/badge/Made_with-Code_&_Coffee-ff69b4?style=for-the-badge)
+  ![Status](https://img.shields.io/badge/Status-Learning_Algorithms-FFD700?style=for-the-badge)
+
 </div>
 
 <br/>
 
 ## 📖 About This Repository
 
-This repository serves as my personal laboratory and portfolio for **Go**. Here, I store all my notes, code snippets, and mini-projects developed while following the excellent curriculum provided by **Jon Calhoun**. 
+This repository serves as my personal laboratory and portfolio for **Go**. Here, I store my notes, code snippets, and mini-projects developed while following the excellent curriculum provided by **Jon Calhoun**. 
 
-My goal is to build a solid foundation in Go, moving from syntax basics to advanced web development and CLI tools.
-
----
-
-## 🎓 Courses Track
-
-Currently, this repository covers materials from the following courses:
-
-- [x] **[Algorithms with Go](https://algorithmswithgo.com/)**: Mastering data structures and algorithms. *(Update as needed)*
-- [ ] **[Web Development with Go](https://usegolang.com/)**: Building a robust web application from scratch.
+Currently, my primary focus is building a rock-solid foundation in **Data Structures and Algorithms**. Once I master the core logic and problem-solving in Go, I will be moving into advanced web development and CLI tools.
 
 ---
 
-## 📂 Project Index
+## 🧠 Current Focus: Algorithms with Go
 
-Here is a summary of the projects and modules I've completed or am currently working on:
+I am currently working through the [Algorithms with Go](https://algorithmswithgo.com/) course. Below is the tracker for the algorithm modules I am implementing:
 
-| Project / Module | Description | Course | Status |
-| :--- | :--- | :---: | :---: |
-| `01-quiz-game` | A command-line CSV quiz game | Gophercises | 🟢 Done |
-| `02-url-shortener` | HTTP handler to redirect URLs | Gophercises | 🟡 WIP |
-| `03-cyoa` | Choose Your Own Adventure web app | Gophercises | 🔴 Pending |
-| `04-lenslocked` | Photo gallery web application | Web Dev w/ Go | 🔴 Pending |
+| Module / Topic | Description | Status |
+| :--- | :--- | :---: |
+| `01-search` | Linear search and finding items in a list | 🟢 Done |
+| `02-math` | Sum of lists, FizzBuzz, Fibonacci | 🟡 WIP |
+| `03-strings` | String reversal, palindromes, manipulation | 🔴 Pending |
+| `04-sorting` | Bubble sort, Insertion sort, etc. | 🔴 Pending |
 
-*(Click on the folder names to navigate to the specific project code.)*
+*(Click on the folder names to navigate to the specific code implementations.)*
 
 ---
 
-## 🛠️ How to Run
+## 🗺️ Future Roadmap
 
-If you want to clone this repository and run the projects locally, make sure you have [Go installed](https://go.dev/doc/install) on your machine.
+These are the upcoming courses and projects I plan to tackle once the Algorithms section is complete:
+
+### 🛠️ Gophercises & CLI Tools
+| Project | Description | Status |
+| :--- | :--- | :---: |
+| `quiz-game` | A command-line CSV quiz game | 🔴 Pending |
+| `url-shortener` | HTTP handler to redirect URLs | 🔴 Pending |
+| `cyoa` | Choose Your Own Adventure web app | 🔴 Pending |
+
+### 🌐 Web Development with Go
+- **[Lenslocked](https://usegolang.com/)**: A complete, robust photo gallery web application built from scratch. (🔴 Pending)
+
+---
+
+## 💻 How to Run
+
+If you want to clone this repository and run the algorithms or projects locally, ensure you have [Go installed](https://go.dev/doc/install) on your machine.
 
 1. Clone the repository:
    ```bash
