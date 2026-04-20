@@ -1,60 +1,66 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png" alt="Happy Gopher Learning" width="180"/>
+  <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png" alt="Happy Gopher Learning" width="200"/>
   
-  # 🚀 My Go Journey
+  # 🚀 Mastering the Gopher Way
+  
+  ### *“Simplicity is the art of hiding complexity.”*
 
-  > Documenting my path, exercises, and projects while mastering Go (Golang) through Jon Calhoun's courses.
+  [![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+  [![Status](https://img.shields.io/badge/Status-Learning_Algorithms-FFD700?style=for-the-badge&logo=gitbook&logoColor=black)](https://algorithmswithgo.com/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-  ![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?style=for-the-badge&logo=go)
-  ![Status](https://img.shields.io/badge/Status-Learning_Algorithms-FFD700?style=for-the-badge)
-
+  ---
 </div>
 
-<br/>
+## 📖 The Mission
 
-## 📖 About This Repository
+This repository is a live documentation of my journey through the **Jon Calhoun** curriculum. It’s more than just code snippets; it’s a sandbox where I break things, fix them, and learn the idiomatic patterns of Go.
 
-This repository serves as my personal laboratory and portfolio for **Go**. Here, I store my notes, code snippets, and mini-projects developed while following the excellent curriculum provided by **Jon Calhoun**. 
-
-Currently, my primary focus is building a rock-solid foundation in **Data Structures and Algorithms**. Once I master the core logic and problem-solving in Go, I will be moving into advanced web development and CLI tools.
+I am currently building my "logical muscles" with **Data Structures and Algorithms** before transitioning into high-performance web services and CLI architecture.
 
 ---
 
-## 🧠 Current Focus: Algorithms with Go
+## 🛠️ Tech Stack & Tools
 
-I am currently working through the [Algorithms with Go](https://algorithmswithgo.com/) course. Below is the tracker for the algorithm modules I am implementing:
-
-| Module / Topic | Description | Status |
-| :--- | :--- | :---: |
-| `01-search` | Linear search and finding items in a list | 🟢 Done |
-| `02-math` | Sum of lists, FizzBuzz, Fibonacci | 🟡 WIP |
-| `03-strings` | String reversal, palindromes, manipulation | 🔴 Pending |
-| `04-sorting` | Bubble sort, Insertion sort, etc. | 🔴 Pending |
-
-*(Click on the folder names to navigate to the specific code implementations.)*
+* **Language:** Go (Golang)
+* **Testing:** `testing` package (Standard Library)
+* **Editor:** VS Code / GoLand
+* **Methodology:** TDD (Test Driven Development) where applicable
 
 ---
 
-## 🗺️ Future Roadmap
+## 🧠 Current Sprint: Algorithms with Go
 
-These are the upcoming courses and projects I plan to tackle once the Algorithms section is complete:
+Tracking my progress through [Algorithms with Go](https://algorithmswithgo.com/). Every module includes unit tests to ensure edge cases are handled.
 
-### 🛠️ Gophercises & CLI Tools
-| Project | Description | Status |
-| :--- | :--- | :---: |
-| `quiz-game` | A command-line CSV quiz game | 🔴 Pending |
-| `url-shortener` | HTTP handler to redirect URLs | 🔴 Pending |
-| `cyoa` | Choose Your Own Adventure web app | 🔴 Pending |
-
-### 🌐 Web Development with Go
-- **[Lenslocked](https://usegolang.com/)**: A complete, robust photo gallery web application built from scratch. (🔴 Pending)
+| Module | Topic | Key Concepts | Status |
+| :--- | :--- | :--- | :---: |
+| `01-search` | **Search** | Linear, Binary Search | 🟢 Finished |
+| `02-math` | **Computation** | Factorials, Fibonacci, GCD | 🟡 In Progress |
+| `03-strings` | **Manipulation** | UTF-8, Runes, Reversals | 🔴 Queued |
+| `04-sorting` | **Efficiency** | Bubble, Selection, Quick Sort | 🔴 Queued |
+| `05-trees` | **Hierarchy** | Binary Search Trees, Heaps | 🔴 Queued |
 
 ---
 
-## 💻 How to Run
+## 🗺️ Roadmap to Mastery
 
-If you want to clone this repository and run the algorithms or projects locally, ensure you have [Go installed](https://go.dev/doc/install) on your machine.
+Following the Jon Calhoun path, here is where I'm headed:
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+- [x] **Phase 1: Foundations** (Basic syntax and Go paradigms)
+- [ ] **Phase 2: Algorithms & Logic** (Current Focus 📍)
+- [ ] **Phase 3: Gophercises** (Building 20+ mini-projects)
+- [ ] **Phase 4: Web Development with Go** (Building production-ready SaaS)
+- [ ] **Phase 5: Test with Go** (Mastering professional-grade testing)
+
+---
+
+## 📂 Repository Structure
+
+```bash
+.
+├── 01-search/        # Linear and Binary search implementations
+├── 02-math/          # Mathematical logic and sequences
+├── internal/         # Shared helper functions
+├── go.mod            # Project dependencies
+└── README.md         # You are here!
